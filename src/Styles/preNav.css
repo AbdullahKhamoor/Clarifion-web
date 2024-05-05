@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.preNav{
+    font-size: 12px;
+    height: 50px;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #252F3D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.preNav div  .as{
+    margin-right: 10px;
+    width: 22px;
+    height: 22px  
+      
+}
+
+.flex{
+
+    display: flex;
+    align-items: center;
+}
+ .arrow{
+ 
+    width: 22px;
+    height: 22px;
+    display: none;
+}
+
+@media only screen and (max-width:428px) and (min-width:250px){
+    .flex2{
+        display: none;
+    }
+    .arrow{
+        display: block;
+    }
+}
+

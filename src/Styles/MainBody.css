@@ -1,0 +1,690 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexMain{
+    /* max-width:1220px; */
+
+    /* height:809px ;
+    display: flex;
+    justify-content: center;
+    margin-top: 27px; */
+}
+
+.MainBody{
+    /* margin-top: 27px ; */
+    margin: 20px auto   ;
+    max-width: 1400px;
+    /* min-width: 1200px; */
+    /* height: 879px; */
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.AirImg img{
+   width: 575px;
+   height: 591px;
+   border-radius: 10px;
+}
+
+.MainComment{
+    width: 531px;
+    /* height: 186px; */
+    border-radius: 10px;
+    /* border: 1px solid black; */
+    margin-top: 34px;
+    padding: 27px 20px 0 27px;
+    background-color: #FFFFFF;
+}
+
+.Comment{
+      
+    width: 237px;
+    height: 48px;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.Comment .circle_img {
+    width: 48px;
+    height: 48px;
+}
+
+
+.stars > img{
+    /* border: 1px solid  aqua; */
+ padding-top: 6px;
+ width: 78.11px;
+ height: 11.95px;
+}
+
+.stars p{
+   font-family: Arial, Helvetica, sans-serif;
+   color: #4D5254;
+   font-size: 16px;
+}
+
+.stars p > img{
+   width: 16px;
+   height: 16px;
+}
+
+.verifiedCustomer{
+    width: 100px;
+    height: 14px;
+    font-size: 12px;
+    color: #5BB59A;
+}
+
+.para2{
+    margin-top: 13px;
+}
+.para2 p{
+    width: 527px;
+    height: 72px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.RightSide{
+    margin-top: 15px;
+    width: 550p ;
+    /* height: 799px; */
+}
+
+
+
+.heading1{
+    width: 487px;
+    height: 113px;
+    line-height: 44.8px;
+}
+.heading1 p{
+    width: 514px;
+    /* margin-top: 28px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.txtcolor{
+    color: #2C7EF8;
+}
+
+.card{
+    display: flex;
+}
+
+.smallAir{
+  width: 134px;    
+  height: 134px;
+  border-radius: 10px;
+  margin-top: 40px;
+}
+.smallAir img{
+    width: 100%;
+}
+
+.MainDollar{
+    width: 392px;
+    height: 135px;
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+
+.DollarPrice{
+    display: flex;
+    justify-content: space-evenly;
+}
+.DollarPrice p{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.starimg2{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.starimg2 img{
+    width: 92px;
+    height: 18px;
+}
+.tick{
+    
+    display: flex;
+    margin-top: 23px;
+
+}
+.tick img{
+    width: 22px;
+    height: 22px;
+    margin-right: 13px;
+    margin-bottom: 10px;
+    
+}
+.tick p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.stock{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #37465A;
+}
+.stock input{
+    margin-top: 10px;
+    margin-left: 18px;
+}
+.para4{
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 369px;
+    height: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #4D5254;
+    line-height: 22.4px;
+
+}
+
+.Percentage{
+    width: 542px;
+    height: 56px;
+    display: flex;
+    margin-top: 23px; 
+    align-items: center; 
+    background-color: #EDF3FD;
+    border-radius: 12px;
+}
+.Percentage img{
+    width: 32px;
+    height: 32px;
+    margin-right: 23px;
+    margin-left: 12px;
+    
+}
+
+.mainbtn{
+    height: 187px;
+}
+
+.btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 542px;
+    height: 59px;
+}
+.btn button{
+    margin-top: 32px;
+    width: 542px;
+    height: 100%;
+    border-radius: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 8px;
+    background-color: #59AE43;
+    border: none;
+}
+
+.FreeShipping{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #CFCFCF;
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+.FreeShipping2{
+    display: flex;
+}
+
+.FreeShipping2 > p img{
+    padding-left: 4px;
+        margin-right: 5px;
+}
+
+.visaCard{
+    /* border: 1px solid black;
+    border-radius: 4px; */
+}
+.visaCard img{
+    width: 24px;
+    height: 14px;
+    margin-right: 3px;
+}
+
+.redlink{
+    margin-top: 10px;
+    /* display: flex; */
+    /* justify-content: center; */
+    width: 295px;
+    height: 25px;
+    font-size: 18px;
+    color: #F82C2C;
+}
+
+.Gharantee{
+    width: 550px;
+    height: 88px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.Gharantee p {
+    width: 446px;
+    height: 78px;
+    line-height: 22.4px;
+    color: #4D5254;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+@media only screen and (max-width:1080px) and (min-width:763px){
+
+
+
+
+  .MainBody{
+    min-width: none;
+  }
+
+
+
+  .AirImg{
+    width: 521px;
+    /* height: 545px; */
+  }
+
+
+    .RightSide{
+        max-width: none;
+        width: 341px;
+    }
+    .heading1{
+        width: 378px;
+    }
+    .heading1 p{
+        font-size: 20px;
+        width: 98%;
+    }
+
+    .smallAir{
+        width: 99px;
+    }
+
+   .card{
+    width: 374px;
+   }
+
+    .MainDollar{
+        font-size: small;
+        width: 285px;
+    }
+    .DollarPrice{
+        font-size: smaller;
+    }
+
+
+    .para4{
+        width: 271px;
+    }
+
+    .Percentage{
+        width: 370px;
+    }
+
+    .btn{
+        width: 373px;
+    }
+    .btn button{
+        width: 346px;
+    }
+
+     .Gharantee{
+        width: 381px;
+     }
+
+    .Gharantee img{
+        width: 76px;
+        height: 76px;
+    }
+    .Gharantee p {
+        font-size: 12px;
+    }
+}
+
+
+
+@media only screen and (max-width:427px) and (min-width:375px){
+
+    
+
+    .AirImg{
+        display: none;
+    }
+
+
+    .RightSide{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .heading1{
+        width: 384px;
+    }
+    .heading1 p{
+        font-size: 24px;
+        width: 405px;
+    }
+
+
+    .smallAir{
+        width: 80px;
+    }
+
+    .MainDollar{
+        width: 308px;
+    }
+
+ .DollarPrice{
+    /* width: ; */
+ }
+ .DollarPrice p{
+    font-size: 14px;
+ }
+
+
+   .para4{
+    width: 305px;
+    height: 26px;
+   }
+
+.mainTick{
+    margin-top: 54px;
+}
+
+   .tick{
+    width: 328px;
+    margin-top: 4px;
+   }
+   .tick p{
+    font-size: 12px;
+   }
+
+
+    .mainbtn{
+        /* display: none; */
+    }
+    .btn{
+        width: 425px;
+    }
+    .btn button{
+        width: 320px;
+    }
+    .Percentage{
+        width: 358px;
+        padding: 12px 16px 12px 16px;
+        /* display: none; */
+    }
+
+    .FreeShipping{
+        flex-wrap: wrap;
+    }
+    .visaCard{
+        border-top: 1px solid black;
+        width: 307px;
+        margin-top: 17px;
+        display: flex;
+        justify-content: center;
+        padding-top: 13px;
+            
+    }
+    .slash1{
+        padding-left: 10px;
+    }
+    .slash{
+        display: none;
+    }
+    .Gharantee{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:376px) and (min-width:365px){
+
+     .MainBody{
+       display:block;
+        width: 360px;
+     }
+
+    .AirImg {
+            display: none;
+        }
+        
+    
+        .RightSide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+    
+        .heading1 {
+            width: 351px;
+        }
+    
+        .heading1 p {
+            font-size: 24px;
+            width: 345px;
+        }
+    
+    
+        .smallAir {
+            width: 80px;
+        }
+    
+        .MainDollar {
+            width: 256px;
+        }
+    
+        .DollarPrice {
+            width: 263px;
+        }
+    
+        .DollarPrice p {
+            font-size: 14px;
+        }
+    
+    
+        .para4 {
+            width: 236px;
+            height: 26px;
+        }
+    
+        .mainTick {
+            margin-top: 54px;
+        }
+    
+        .tick {
+            width: 328px;
+            margin-top: 4px;
+        }
+    
+        .tick p {
+            font-size: 12px;
+        }
+    
+    
+        .mainbtn {
+            /* display: none; */
+        }
+    
+        .btn {
+            width: 344px;
+        }
+    
+        .btn button {
+            width: 320px;
+        }
+    
+        .Percentage {
+            width: 270px;
+            padding: 12px 16px 12px 16px;
+            /* display: none; */
+        }
+    
+        .FreeShipping {
+            font-size: 13px;
+            flex-wrap: wrap;
+            width: 325px;
+        }
+    
+        .visaCard {
+            border-top: 1px solid black;
+            width: 307px;
+            margin-top: 17px;
+            display: flex;
+            justify-content: center;
+            padding-top: 13px;
+    
+        }
+    
+        .slash1 {
+            padding-left: 10px;
+        }
+    
+        .slash {
+            display: none;
+        }
+                .Gharantee {
+                    display: none;
+                }
+}
+
+@media only screen and (max-width:365px) and (min-width:320px){
+    .MainBody {
+            display: block;
+            width: 320px;
+        }
+    
+        .AirImg {
+            display: none;
+        }
+    
+    
+        .RightSide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .card{
+            width: 320px;
+        }
+    
+        .heading1 {
+            width: 320px;
+        }
+    
+        .heading1 p {
+            font-size: 24px;
+            width: 320px;
+        }
+    
+    
+        .smallAir {
+            width: 80px;
+        }
+    
+        .MainDollar {
+            width: 224px;
+        }
+    
+        .DollarPrice {
+            width: 235px;
+        }
+    
+        .DollarPrice p {
+            font-size: 14px;
+        }
+    
+    
+        .para4 {
+            width: 216px;
+            height: 26px;
+        }
+    
+        .mainTick {
+            margin-top: 54px;
+        }
+    
+        .tick {
+            width: 314px;
+            margin-top: 4px;
+        }
+    
+        .tick p {
+            font-size: 12px;
+        }
+    
+        .mainTick{
+            width: 320px;
+        }
+    
+        .mainbtn {
+            /* display: none; */
+        }
+    
+        .btn {
+            width: 320px;
+        }
+    
+        .btn button {
+            width: 320px;
+        }
+    
+        .Percentage {
+            width: 270px;
+            padding: 12px 16px 12px 16px;
+            /* display: none; */
+        }
+    
+        .FreeShipping {
+            font-size: 13px;
+            flex-wrap: wrap;
+            width: 285px;
+        }
+    
+        .visaCard {
+            border-top: 1px solid black;
+            width: 307px;
+            margin-top: 17px;
+            display: flex;
+            justify-content: center;
+            padding-top: 13px;
+    
+        }
+    
+        .slash1 {
+            padding-left: 10px;
+        }
+    
+        .slash {
+            display: none;
+        }
+    
+        .Gharantee {
+            display: none;
+        }
+ 
+}

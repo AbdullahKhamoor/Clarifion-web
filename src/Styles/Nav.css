@@ -1,0 +1,41 @@
+.Nav{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+
+}
+
+.left_logo{
+    width: 192px;
+    height: 36px;
+}
+
+.right_side{
+    width: 88px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+.right_logo{
+    width: 88px;
+    height: 32px;
+}
+
+@media only screen and (max-width:428px) and (min-width:319px) {
+    .left_logo{
+        width: 106.67px;
+        height: 20px;
+    }
+    .left_logo img{
+        width: 100%;
+        height: 100%;
+    }
+    /* .right_logo{
+        width: 44px;
+        height: 16px;
+    } */
+    .right_logo img{
+        width: 44px;
+        height: 16px;
+    }
+}

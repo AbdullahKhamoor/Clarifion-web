@@ -1,0 +1,42 @@
+.Procedure{
+    max-width: 1445px;
+    min-width: 320px;
+    margin-top: 64px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.proFlex{
+    display: flex;
+    align-items: center;
+}
+.proFlex img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width:428px) and (min-width:250px){
+
+   .proFlex{
+    width: 67px;
+    height: 37px;
+   }
+
+    .proFlex img{
+        width: 20px;
+        height: 20px;
+        margin-bottom: 5px;
+    }
+    .proFlex p {
+        width: 75px;
+        font-size: 12px;
+        line-height: 13.2px;
+        text-align: left;
+    }
+    .step{
+        display: none;
+    }
+}
