@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/project-Clarifion-web/static/css/main.07ed7e41.css",
-    "main.js": "/project-Clarifion-web/static/js/main.d8e4ce46.js",
-    "static/media/AirCleaner.png": "/project-Clarifion-web/static/media/AirCleaner.c1b2ef022c3c5cac681b.png",
-    "static/media/Gharantee.png": "/project-Clarifion-web/static/media/Gharantee.72511b6cf9612ff2cd15.png",
-    "index.html": "/project-Clarifion-web/index.html",
-    "main.07ed7e41.css.map": "/project-Clarifion-web/static/css/main.07ed7e41.css.map",
-    "main.d8e4ce46.js.map": "/project-Clarifion-web/static/js/main.d8e4ce46.js.map"
+    "main.css": "/Clarifion-web/static/css/main.07ed7e41.css",
+    "main.js": "/Clarifion-web/static/js/main.9754bcc7.js",
+    "static/media/AirCleaner.png": "/Clarifion-web/static/media/AirCleaner.c1b2ef022c3c5cac681b.png",
+    "static/media/Gharantee.png": "/Clarifion-web/static/media/Gharantee.72511b6cf9612ff2cd15.png",
+    "index.html": "/Clarifion-web/index.html",
+    "main.07ed7e41.css.map": "/Clarifion-web/static/css/main.07ed7e41.css.map",
+    "main.9754bcc7.js.map": "/Clarifion-web/static/js/main.9754bcc7.js.map"
   },
   "entrypoints": [
     "static/css/main.07ed7e41.css",
-    "static/js/main.d8e4ce46.js"
+    "static/js/main.9754bcc7.js"
   ]
 }
