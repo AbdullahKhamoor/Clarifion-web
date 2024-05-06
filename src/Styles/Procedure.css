@@ -1,11 +1,12 @@
 .Procedure{
     max-width: 1445px;
     min-width: 320px;
-    margin-top: 64px;
+    padding-top: 64px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     display: flex;
     justify-content: space-around;
+    /* background-color: #FAFAFA;    */
 }
 .proFlex{
     display: flex;
@@ -19,6 +20,11 @@
 
 
 @media only screen and (max-width:428px) and (min-width:250px){
+
+    .Procedure{
+        padding-top: 16px;
+        background-color: #FAFAFA;
+    }
 
    .proFlex{
     width: 67px;

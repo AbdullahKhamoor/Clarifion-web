@@ -23,10 +23,15 @@
 
 @media only screen and (max-width:428px) and (min-width:250px) {
 
+    .Header{
+        background-color: #FAFAFA;
+    }
+
    .Header{
-    width: 320px;
-    height: 126px;
+    /* width: 320px; */
+    height: 143px;
     line-height: 20px;
+    height: 146px;
    }
 
    .proFlex{
@@ -47,8 +52,10 @@
     }
 
     .Header .para{
+        /* width: 371px; */
         font-size: 16px;
         line-height: 22.4px;
         color: #4D5254;
     }
 }
+
