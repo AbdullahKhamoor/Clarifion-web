@@ -84,7 +84,7 @@ const MainBody = () => {
         </div>
             <div className='Gharantee'>
                 <img src={require('../Asset/MainBody img/Gharantee.png')} alt="Gharantee" />
-                      <p>If you are not completely thrilled with your Clarifion - We have a 30 day satisfaction guarantee. Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
+                  <p>If you are not completely thrilled with your Clarifion - We have a <b> 30 day satisfaction guarantee.</b> Please refer to our return policy at the bottom of the page for more details. Happy Shopping!</p>
             </div>
       </div>
     </div>

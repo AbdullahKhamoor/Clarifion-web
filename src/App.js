@@ -3,6 +3,7 @@ import Nav from "./Components/Nav";
 import Header from "./Components/Header";
 import Procedure from "./Components/Procedure";
 import MainBody from "./Components/MainBody";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Procedure />
       <MainBody />
+      <Footer />
     </>
   );
 }
