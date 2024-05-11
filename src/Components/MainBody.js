@@ -41,7 +41,7 @@ const MainBody = () => {
                     <p className='discount'> $84</p>
                 </div>
                 <div className='starimg2'><img src={require('../Asset/MainBody img/Stars.png')} alt="" /></div>
-                      <div className='stock'><input type="radio" /> 12 left in Stock</div>
+                      <div className='stock'><input type="radio" /> <p> 12 left in Stock </p></div>
                       <p className='para4'>Simply plug a Clarifion into any standard outlet and replace bulky, expensive air purifiers with a simple</p>
             </div>
         </div>
