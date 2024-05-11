@@ -33,6 +33,28 @@
     height: 16px;
 }
 
+
+@media only screen and (max-width:1024px) and (min-width:768px){
+    
+   .Footer  .l_side{
+    width: 418px;
+    }
+}
+
+@media only screen and (max-width:768px) and (min-width:427px){
+    
+    .Footer{
+        font-size: small;
+    }
+
+    .Footer .l_side{
+        width: 665px;
+    }
+    .l_side .p1{
+        width: 44%;
+    }
+}
+
 @media only screen and (max-width:427px) and (min-width:250px) {
     .Footer{
         font-size: 12px;

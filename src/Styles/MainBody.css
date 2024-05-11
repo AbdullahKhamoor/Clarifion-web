@@ -31,6 +31,9 @@
     padding: 27px 20px 0 27px;
     background-color: #FFFFFF;
 }
+.MainComment .para2{
+    color: #4D5254;
+}
 
 .Comment{
       
@@ -137,6 +140,11 @@
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+
+}
+
+ .discount{
+    color: #2C7EF8;
 }
 
 
@@ -152,6 +160,7 @@
     
     display: flex;
     margin-top: 23px;
+    color: #4D5254;
 
 }
 .tick img{
@@ -338,17 +347,197 @@
         width: 346px;
     }
 
+    .FreeShipping{
+        width: 300px;
+        flex-wrap: wrap;
+    }
+
+    .FreeShipping span{
+        display: none;
+    }
+
+
      .Gharantee{
-        width: 381px;
+        width: 349px;
+        margin-top: 14px;
      }
 
     .Gharantee img{
-        width: 76px;
-        height: 76px;
+        width: 61px;
+        height: 61px;
     }
     .Gharantee p {
         font-size: 12px;
     }
+}
+
+@media only screen and (max-width:770px) and (min-width:430px){
+
+    .MainBody {
+            margin: 0;
+            padding-top: 12px;
+        }
+    
+        .AirImg {
+            display: none;
+        }
+    
+
+      .preNav .flex{
+        /* display: none; */
+         font-size: 9px;
+      }
+      .preNav .flex img{
+        width: 13px;
+        height: 13px;
+      }
+
+      .Procedure .proFlex{
+        font-size: 12px;
+
+      }
+      .Procedure .proFlex img{
+         width: 25px;
+         height: 25px;
+      }
+      .RightSide{
+        width: 600px;
+      }
+      .RightSide .heading1{
+        width: 100%;
+      }
+
+    
+        .RightSide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 0px;
+        }
+    
+        .heading1 {
+            width: 384px;
+            text-align: center;
+        }
+    
+        .heading1 p {
+            font-size: 24px;
+            width: 100%;
+        }
+        
+        .card{
+            width: 600px;
+            justify-content: space-around;
+        }
+    
+        .smallAir {
+            width: 80px;
+        }
+    
+        .MainDollar {
+            width: 431px;
+        }
+    
+       .DollarPrice{
+        width: 343px;
+       }
+
+        .DollarPrice p {
+            font-size: 14px;
+        }
+    
+    
+        .para4 {
+            width: 305px;
+            height: 26px;
+        }
+    
+        .mainTick {
+            margin-top: 54px;
+        }
+    
+        .tick {
+            width: 600px;
+            margin-top: 4px;
+            color: #4D5254;
+        }
+    
+        .tick p {
+            font-size: large;
+        }
+    
+    
+        .btn {
+            width: 425px;
+        }
+    
+        .btn button {
+            width: 320px;
+            font-size: 12px;
+        }
+    
+        button img {
+            width: 12px;
+    
+        }
+    
+        .Percentage {
+            width: 471px;
+            padding: 12px 16px 12px 16px;
+        }
+    
+        .mainbtn {
+            width: 344px;
+        }
+    
+        .btn {
+            width: 344px;
+        }
+        .btn button{
+            width: 418px;
+        }
+    
+        .FreeShipping {
+            font-size: 13px;
+            flex-wrap: wrap;
+            width: 386px;
+    
+        }
+    
+        .visaCard {
+            border-top: 1px solid black;
+            width: 307px;
+            margin-top: 17px;
+            display: flex;
+            justify-content: center;
+            padding-top: 13px;
+    
+        }
+    
+        .slash1 {
+            padding-left: 10px;
+        }
+    
+        .Gharantee {
+         
+            margin-top: 53px;
+            margin-bottom: 50px;
+            width: 520px;
+            color: #4D5254;
+            line-height: 16.5px;
+        }
+    
+        .Gharantee img {
+            /* width: 48px;
+            height: 48px; */
+            padding-right: 12px;
+        }
+    
+        /* .Gharantee p {
+            font-size: 12px;
+        } */
+
+        
 }
 
 
@@ -408,6 +597,7 @@
    .tick{
     width: 328px;
     margin-top: 4px;
+    color: #4D5254;
    }
    .tick p{
     font-size: 12px;
@@ -426,7 +616,7 @@
 
     }
     .Percentage{
-        width: 358px;
+        width: 320px;
         padding: 12px 16px 12px 16px;
     }
 
@@ -534,6 +724,7 @@
         .tick {
             width: 328px;
             margin-top: 4px;
+            color: #4D5254;
         }
     
         .tick img{
@@ -558,7 +749,7 @@
         }
     
         .Percentage {
-            width: 270px;
+            width: 320px;
             padding: 12px 16px 12px 16px;
             /* display: none; */
         }
@@ -656,6 +847,7 @@
         .tick {
             width: 314px;
             margin-top: 4px;
+            color: #4D5254;
         }
 
         .tick img{

@@ -25,7 +25,10 @@ const MainBody = () => {
       <div className='RightSide'>
               <div className='heading1'><p> <span className='txtcolor'> ONE TIME ONLY</span> Special Price For 6 Extra Clarifion For Only <span className='txtcolor'> $14 Each</span> &#40;$84.00 Total!&#41;</p></div>
         <div className='card'>
+        
             <div className='smallAir'><img src={require('../Asset/MainBody img/AirCleanSmall.png')} alt="Small Air Cleaner" /></div>
+                  <div></div>
+                  <div></div>
             <div className='MainDollar'>
                 <div className='DollarPrice'>
                     <p>Clarifion Air Ionizer</p>
@@ -35,7 +38,7 @@ const MainBody = () => {
                     <p></p>
                           <p><s> $180</s></p>
                         
-                    <p> $84</p>
+                    <p className='discount'> $84</p>
                 </div>
                 <div className='starimg2'><img src={require('../Asset/MainBody img/Stars.png')} alt="" /></div>
                       <div className='stock'><input type="checkbox" /> 12 left in Stock</div>
@@ -59,7 +62,7 @@ const MainBody = () => {
 
         <div className='Percentage'>
             <img src={require('../Asset/MainBody img/percentagee.png')} alt="%" />
-            <p>Save 53% and get 6 extra Clarifision for only $14 Each.</p>
+                  <p>Save <span className='discount'>53% </span>and get <span className='discount'> 6 extra Clarifision </span> for only <span className='discount'> $14 Each.</span></p>
         </div>
         <div className='mainbtn'>
             <div className='btn'>
@@ -79,7 +82,7 @@ const MainBody = () => {
                             <img src={require('../Asset/MainBody img/amex.png')} alt="card" />
                         </div>
                 </div>
-                    <div className='redlink'><p>NO THANKS, I DON'T WANT THIS.</p></div>
+                      <div className='redlink'><p> <u>NO THANKS,I DON'T WANT THIS. </u></p></div>
             </div>
         </div>
             <div className='Gharantee'>
