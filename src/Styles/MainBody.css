@@ -205,6 +205,9 @@
     background-color: #EDF3FD;
     border-radius: 12px;
 }
+.Percentage .discount{
+    color: #2C7EF8;
+}
 .Percentage img{
     width: 32px;
     height: 32px;
@@ -592,9 +595,29 @@
  }
 
 
-   .para4{
+   /* .para4{
     width: 305px;
     height: 26px;
+   } */
+
+   .MainDollar .para4{
+        margin-top: 39px;
+            padding-right: 0px;
+            margin-right: 0px;
+            position: absolute;
+            top: 550px;
+            right: 60px;
+            font-size: 12px;
+            width: 316px;
+            line-height: 16.8px;
+            text-align: center;
+   }
+
+   .MainDollar .stock{
+    font-size: 12px;
+   }
+   .MainDollar .stock input {
+       margin-right: 20px;
    }
 
 .mainTick{
@@ -616,7 +639,8 @@
     }
     .btn button{
         width: 320px;
-        font-size: 12px;
+        font-size: 14px;
+        padding: 24px;
     }
     button img{
         width: 12px;
@@ -660,6 +684,7 @@
         width: 320px;
         color: #4D5254;
         line-height: 16.5px;
+        margin-top: 64px;
     }
     .Gharantee img{
         width: 48px;
@@ -709,6 +734,26 @@
         .MainDollar {
             width: 256px;
         }
+                .MainDollar .para4 {
+                    margin-top: 39px;
+                    padding-right: 0px;
+                    margin-right: 0px;
+                    position: absolute;
+                    top: 550px;
+                    right: 30px;
+                    font-size: 12px;
+                    width: 316px;
+                    line-height: 16.8px;
+                    text-align: center;
+                }
+
+        .MainDollar .stock {
+            font-size: 12px;
+        }
+
+        .MainDollar .stock input{
+            margin-right: 20px;
+        }
     
         .DollarPrice {
             width: 263px;
@@ -718,11 +763,11 @@
             font-size: 14px;
         }
     
-    
+/*     
         .para4 {
             width: 236px;
             height: 26px;
-        }
+        } */
     
         .mainTick {
             margin-top: 54px;
@@ -753,6 +798,8 @@
     
         .btn button {
             width: 320px;
+            font-size: 14px;
+            padding: 24px;
         }
     
         .Percentage {
@@ -784,6 +831,9 @@
 
         .slash1 {
             padding-left: 10px;
+        }
+        .Gharantee{
+            margin-top: 64px;
         }
 
 }
@@ -831,7 +881,27 @@
         .MainDollar {
             width: 224px;
         }
+
+        .MainDollar .para4 {
+            margin-top: 39px;
+            padding-right: 0px;
+            margin-right: 0px;
+            position: absolute;
+            top: 550px;
+            right: 1px;
+            font-size: 12px;
+            width: 316px;
+            line-height: 16.8px;
+            text-align: center;
+        }
     
+        .MainDollar .stock {
+            font-size: 12px;
+        }
+
+        .MainDollar .stock input {
+            margin-right: 20px;
+        }
         .DollarPrice {
             width: 235px;
         }
@@ -841,10 +911,10 @@
         }
     
     
-        .para4 {
+        /* .para4 {
             width: 216px;
             height: 26px;
-        }
+        } */
     
         .mainTick {
             margin-top: 54px;
@@ -876,7 +946,8 @@
 
         .btn button {
             width: 286px;
-            font-size: 12px;
+            font-size: 14px;
+            padding: 24px;
         }
         button img{
            width: 12px;
@@ -912,7 +983,7 @@
  
                 .Gharantee {
                     /* display: none; */
-                    margin-top: 32px;
+                    margin-top: 64px;
                     margin-bottom: 27px;
                     width: 298px;
                     color: #4D5254;
