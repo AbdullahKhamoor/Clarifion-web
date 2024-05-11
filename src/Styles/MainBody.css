@@ -136,6 +136,11 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+.DollarPrice .discount {
+    color: #2C7EF8;
+}
+
 .DollarPrice p{
     color: #000000;
     font-family: Arial, Helvetica, sans-serif;
@@ -143,9 +148,7 @@
 
 }
 
- .discount{
-    color: #2C7EF8;
-}
+ 
 
 
 .starimg2{
@@ -331,6 +334,8 @@
         font-size: smaller;
     }
 
+    
+
 
     .para4{
         width: 271px;
@@ -441,6 +446,7 @@
        .DollarPrice{
         width: 343px;
        }
+
 
         .DollarPrice p {
             font-size: 14px;
@@ -578,6 +584,7 @@
     .MainDollar{
         width: 308px;
     }
+
 
 
  .DollarPrice p{
@@ -828,7 +835,7 @@
         .DollarPrice {
             width: 235px;
         }
-    
+
         .DollarPrice p {
             font-size: 14px;
         }
