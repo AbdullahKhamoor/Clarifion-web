@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Clarifion-web/static/css/main.96c94a23.css",
-    "main.js": "/Clarifion-web/static/js/main.b0cd6122.js",
+    "main.css": "/Clarifion-web/static/css/main.47a9f67b.css",
+    "main.js": "/Clarifion-web/static/js/main.a5994432.js",
     "static/media/AirCleaner.png": "/Clarifion-web/static/media/AirCleaner.c1b2ef022c3c5cac681b.png",
     "static/media/Gharantee.png": "/Clarifion-web/static/media/Gharantee.72511b6cf9612ff2cd15.png",
     "index.html": "/Clarifion-web/index.html",
-    "main.96c94a23.css.map": "/Clarifion-web/static/css/main.96c94a23.css.map",
-    "main.b0cd6122.js.map": "/Clarifion-web/static/js/main.b0cd6122.js.map"
+    "main.47a9f67b.css.map": "/Clarifion-web/static/css/main.47a9f67b.css.map",
+    "main.a5994432.js.map": "/Clarifion-web/static/js/main.a5994432.js.map"
   },
   "entrypoints": [
-    "static/css/main.96c94a23.css",
-    "static/js/main.b0cd6122.js"
+    "static/css/main.47a9f67b.css",
+    "static/js/main.a5994432.js"
   ]
 }
