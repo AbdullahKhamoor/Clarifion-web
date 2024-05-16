@@ -31,7 +31,7 @@ const MainBody = () => {
                   <div></div>
             <div className='MainDollar'>
                 <div className='DollarPrice'>
-                    <p>Clarifion Air Ionizer</p>
+                    <p className='para1'>Clarifion Air Ionizer</p>
                     <p></p>
                     <p></p>
                     <p></p>
@@ -70,7 +70,7 @@ const MainBody = () => {
                 <div className='FreeShipping'>
                           <div>Free shippings <span className='slash1'>|</span></div> 
                     <div className='FreeShipping2'>
-                              <p><img src={require('../Asset/MainBody img/lock .png')} alt="lock" /> </p>
+                              <p><img src={require('../Asset/MainBody img/lock1.png')} alt="lock" /> </p>
                               <p>Secure 256-bit SSL encryption. <span className='slash'>|</span></p> 
                     </div>
                         <div className='visaCard'>
