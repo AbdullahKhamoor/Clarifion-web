@@ -1,15 +1,19 @@
 {
   "files": {
-    "main.css": "/Clarifion-web/static/css/main.47a9f67b.css",
-    "main.js": "/Clarifion-web/static/js/main.a5994432.js",
+    "main.css": "/Clarifion-web/static/css/main.00de7ed5.css",
+    "main.js": "/Clarifion-web/static/js/main.c3d25882.js",
     "static/media/AirCleaner.png": "/Clarifion-web/static/media/AirCleaner.c1b2ef022c3c5cac681b.png",
-    "static/media/Gharantee.png": "/Clarifion-web/static/media/Gharantee.72511b6cf9612ff2cd15.png",
+    "static/media/Gharantee.png": "/Clarifion-web/static/media/Gharantee.19ef0b5a59d677a08f8f.png",
+    "static/media/gpay.png": "/Clarifion-web/static/media/gpay.534419f8f0bfa7e92dba.png",
+    "static/media/shop pay.png": "/Clarifion-web/static/media/shop pay.f356b0f9c3b9e6a0e3c5.png",
+    "static/media/mastercard.png": "/Clarifion-web/static/media/mastercard.523851ca1927b8276517.png",
+    "static/media/amex.png": "/Clarifion-web/static/media/amex.0d8f64e8be5e0a270336.png",
     "index.html": "/Clarifion-web/index.html",
-    "main.47a9f67b.css.map": "/Clarifion-web/static/css/main.47a9f67b.css.map",
-    "main.a5994432.js.map": "/Clarifion-web/static/js/main.a5994432.js.map"
+    "main.00de7ed5.css.map": "/Clarifion-web/static/css/main.00de7ed5.css.map",
+    "main.c3d25882.js.map": "/Clarifion-web/static/js/main.c3d25882.js.map"
   },
   "entrypoints": [
-    "static/css/main.47a9f67b.css",
-    "static/js/main.a5994432.js"
+    "static/css/main.00de7ed5.css",
+    "static/js/main.c3d25882.js"
   ]
 }
